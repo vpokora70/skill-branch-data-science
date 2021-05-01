@@ -119,6 +119,6 @@ print(calculate_mean_squared_by_num_rooms(X))
 print("MAX  и MIN площади квартир в зависимости от материала:")
 print(calculate_squared_stats_by_material(X))
 
-print('Средняя стоимость квартиры в зависимости от района и цели покупки')
+print("Средняя стоимость квартиры в зависимости от района и цели покупки:")
 c_cr_tab=calculate_crosstab(X)
 print(c_cr_tab)
